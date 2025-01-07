@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "X",
+    "slug": "X",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/x-logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/x-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/x-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/x-logo.png"
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
